@@ -1,0 +1,48 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    transition: background-color 0.5s ease;
+}
+
+#container {
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    color: #333;
+}
+
+h1 {
+    color: #007bff;
+}
+
+#actionButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+#actionButton:hover {
+    background-color: #0056b3;
+}
+
+#actionButton:active {
+    transform: scale(0.98);
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 1.1em;
+}
+
